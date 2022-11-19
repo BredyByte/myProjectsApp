@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "link": "https://github.com/Dvaid0805/reactClothesStore",
+    "title": "Clothes Store",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+  },
+  {
+    "id": 2,
+    "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
+    "title": "Peculiar slider component",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+  },
+  {
+    "id": 3,
+    "link": "https://dvaid0805.github.io/roomsBookingComponent/",
+    "title": "Rooms booking",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+  },
+  {
+    "id": 4,
+    "link": " https://dvaid0805.github.io/training-module-systemForAdmin/",
+    "title": "Admin panel",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+  }
+]

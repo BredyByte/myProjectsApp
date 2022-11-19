@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AssessmentIcon from '@mui/icons-material/Assessment';
+import { TbMushroom } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
 
 import './NavigationBar.css';
@@ -48,8 +48,8 @@ const NavigationBar = () => {
                 textDecoration: 'none',
               }}
             >
-              <AssessmentIcon />
-              ChartApp
+
+              Se<TbMushroom/>aApp
             </Typography>
           </Link>
           <Box className="AuthorIcon" sx={{ flexGrow: 0, padding: "5px", borderRadius: "50%" }}>
