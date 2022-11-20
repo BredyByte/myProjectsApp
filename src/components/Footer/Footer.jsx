@@ -63,7 +63,7 @@ const Footer = () => {
             fontWeight: 700,
             letterSpacing: '.1rem',
            }} >
-            Created by Davyd Bredykhin
+            Created by David Bredykhin
           </Typography>
           <Box
             position="absolute"
