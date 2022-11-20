@@ -7,9 +7,9 @@
   },
   {
     "id": 2,
-    "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
-    "title": "Peculiar Slider",
-    "desc": "Just a cool made slider\uD83D\uDE01"
+    "link":"https://capable-heliotrope-4489bd.netlify.app/",
+    "title": "Charts App",
+    "desc": "This is an application with charts where I practiced ChartJs and Redux-saga"
   },
   {
     "id": 3,
@@ -31,8 +31,8 @@
   },
   {
     "id": 6,
-    "link": "https://capable-heliotrope-4489bd.netlify.app/",
-    "title": "Chart App",
-    "desc": "This is an application with charts where I practiced chartjs and Redux-saga"
+    "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
+    "title": "Peculiar Slider",
+    "desc": "Just a cool made slider"
   }
 ]
