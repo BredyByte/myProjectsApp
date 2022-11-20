@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
-import CardLink from '../CardLink/CardLink';
+import ProjectCardLink from '../ProjectCardLink/ProjectCardLink';
 import VanillaTilt from '../../vanilla-tilt';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProjects } from '../../store/projectsSlice';
 import VanillaTiltRun from '../../vanilla-tilt';
 
-const CardLinkContainer = () => {
+const ProjectLinkContainer = () => {
   const projects = useSelector(state => state.projects.data);
   const isMobile = /Mobile|webOS|BlackBerry|IEMobile|MeeGo|mini|Fennec|Windows Phone|Android|iP(ad|od|hone)/i.test(navigator.userAgent);
 
@@ -19,7 +19,7 @@ const CardLinkContainer = () => {
   }, [])
   return (
     <div
-      className="CardLinkContainer"
+      className="ProjectLinkContainer"
       style={{
         display: "flex",
         alignItems: "center",
@@ -31,7 +31,7 @@ const CardLinkContainer = () => {
       {
         projects.map(i => (
           <div key={i.id}>
-            <CardLink data={i}/>
+            <ProjectCardLink data={i}/>
           </div>
         ))
       }
@@ -39,4 +39,4 @@ const CardLinkContainer = () => {
   )
 }
 
-export default CardLinkContainer
+export default ProjectLinkContainer

@@ -1,8 +1,8 @@
-import './CardLink.css';
+import './ProjectCardLink.css';
 
 
 const CardLink = ({data}) => {
-  const {id, title, desc, link} = data;
+  const {id, title, desc, link, img} = data;
   return (
     <a  className="card" href={link} target="_blank">
       <div className="content">

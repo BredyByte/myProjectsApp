@@ -53,36 +53,36 @@ const NavigationBar = () => {
             </Typography>
           </Link>
           <Box className="AuthorIcon" sx={{ flexGrow: 0, padding: "5px", borderRadius: "50%" }}>
-            <Tooltip  title="Open settings">
+            <Tooltip>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Davyd Bredykhin" src="https://png.vector.me/files/images/8/3/831744/super_mario_mushroom.jpg" />
               </IconButton>
             </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                border: "1px red solid",
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Link to="/about" >
-                    <Typography textAlign="center">{setting}</Typography>
-                  </Link>
-                </MenuItem>
-              ))}
-            </Menu>
+            {/*<Menu*/}
+            {/*  sx={{ mt: '45px' }}*/}
+            {/*  id="menu-appbar"*/}
+            {/*  anchorEl={anchorElUser}*/}
+            {/*  anchorOrigin={{*/}
+            {/*    vertical: 'top',*/}
+            {/*    horizontal: 'right',*/}
+            {/*  }}*/}
+            {/*  keepMounted*/}
+            {/*  transformOrigin={{*/}
+            {/*    border: "1px red solid",*/}
+            {/*    vertical: 'top',*/}
+            {/*    horizontal: 'right',*/}
+            {/*  }}*/}
+            {/*  open={Boolean(anchorElUser)}*/}
+            {/*  onClose={handleCloseUserMenu}*/}
+            {/*>*/}
+            {/*  {settings.map((setting) => (*/}
+            {/*    <MenuItem key={setting} onClick={handleCloseUserMenu}>*/}
+            {/*      <Link to="/about" >*/}
+            {/*        <Typography textAlign="center">{setting}</Typography>*/}
+            {/*      </Link>*/}
+            {/*    </MenuItem>*/}
+            {/*  ))}*/}
+            {/*</Menu>*/}
           </Box>
         </Toolbar>
       </Container>

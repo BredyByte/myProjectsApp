@@ -1,20 +1,20 @@
-import './About.css';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div
       className="About MainItem"
     >
-      <div className="container">
-        <h2 className="title" >Hi there!
+      <div className="container" style={{ padding: "20px" }}>
+        <h2 className="title" style={{ textAlign: "center" }}>Hi there!
           <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
         </h2>
         <br/>
         <div>
           First of all, I want to say <b>thank you</b> for visiting this application.
-          I made it  for a single purpose - to introduce you my person and my works 🙃.
+          I made it  for a single purpose - to introduce you my person and projects that i've made 🙃.
         </div>
-        <br/>
+        <h2><Link to="/projects" style={{color: "#61b2ff"}} >My Projects</Link></h2>
         <div>
           I'm David, Frontend Developer with good experience in  ReactJS.
           I play board games, do crossfit, hunt for new information, and i just adore programming!

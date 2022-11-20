@@ -1,26 +1,32 @@
 [
   {
     "id": 1,
-    "link": "https://github.com/Dvaid0805/reactClothesStore",
+    "link": "https://golden-kashata-473707.netlify.app/",
     "title": "Clothes Store",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+    "desc": "This is a real clothing store, all the functionality is fully working, so if you send a message on the contact us tab, I will receive it! Also, the login and account creation functionality work, and I have reliable data on who has registered and logged in."
   },
   {
     "id": 2,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
-    "title": "Peculiar slider component",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+    "title": "Peculiar Slider",
+    "desc": "Just a cool made slider\uD83D\uDE01"
   },
   {
     "id": 3,
     "link": "https://dvaid0805.github.io/roomsBookingComponent/",
-    "title": "Rooms booking",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+    "title": "Rooms Booking",
+    "desc": "This is a beautifully made component for the \"Book a room\" tab for some hotel"
   },
   {
     "id": 4,
-    "link": " https://dvaid0805.github.io/training-module-systemForAdmin/",
+    "link": "https://dvaid0805.github.io/training-module-systemForAdmin/",
     "title": "Admin panel",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque cupiditate rem. Aliquid dicta eveniet in minus nisi. A assumenda autem beatae magnam porro quasi, qui recusandae sapiente temporibus voluptas."
+    "desc": "This is the visual part of the admin panel for creating new courses for students. This app has no functional, just dumb UI"
+  },
+  {
+    "id": 5,
+    "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
+    "title": "Component With Sorted Cards",
+    "desc": "Just a beautiful component that sorts the cards inside"
   }
 ]

@@ -9,7 +9,7 @@ import { store } from './store/store';
 import Index from './routes/Index/Index';
 import Root from './routes/Root/Root';
 import ErrorPage from './routes/ErrorPage/ErrorPage'
-import About from './routes/About/About';
+import ProjectLinkContainer from './components/ProjectLinkContainer/ProjectLinkContainer'
 
 const router = createBrowserRouter([
   {
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
             element: <Index/>
           },
           {
-            path: "/about",
-            element: <About/>
+            path: '/projects',
+            element: <ProjectLinkContainer/>
           },
         ]
       }
