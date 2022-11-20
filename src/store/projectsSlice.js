@@ -23,21 +23,10 @@ const projectsSlice = createSlice({
 });
 
 const { setProjects, hideLoader, showLoader } = projectsSlice.actions;
-const isMobile = /Mobile|webOS|BlackBerry|IEMobile|MeeGo|mini|Fennec|Windows Phone|Android|iP(ad|od|hone)/i.test(navigator.userAgent);
-
-const VanillaTiltRun = () => {
-  if(!isMobile) {
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 25,
-      speed: 400,
-    });
-  }
-}
 const fetchProjects = () => dispatch => {
     axios
       .get('./projectsData.json')
       .then(res => dispatch(setProjects(res.data)))
-      .then(() => VanillaTiltRun())
       .catch(error => console.log(error));
 }
 export const initialize = () => dispatch => {

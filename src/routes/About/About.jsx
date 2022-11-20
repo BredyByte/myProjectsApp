@@ -5,7 +5,38 @@ const About = () => {
     <div
       className="About MainItem"
     >
-      About
+      <div className="container">
+        <h2 className="title" >Hi there!
+          <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+        </h2>
+        <br/>
+        <div>
+          First of all, I want to say <b>thank you</b> for visiting this application.
+          I made it  for a single purpose - to introduce you my person and my works 🙃.
+        </div>
+        <br/>
+        <div>
+          I'm David, Frontend Developer with good experience in  ReactJS.
+          I play board games, do crossfit, hunt for new information, and i just adore programming!
+          So, if you have any suggestions to me, questions, well,
+          or just want to chat - write me an
+          email <b><a href="mailto:correodemimobil@gmail.com" style={{color: "#61b2ff"}} >correodemimobil@gmail.com</a></b> or
+          you'll be able to use any social net attached below.
+        </div>
+        <br/>
+        <div>
+          Oh, btw, i speak 4 languages:
+          <ul>
+            <li>English</li>
+            <li>Spanish</li>
+            <li>Russian</li>
+            <li>Ukrainian</li>
+          </ul>
+          <p>So you can choose any one from this list.</p>
+          <p>See you later, internet traveler😏.</p>
+        </div>
+        <br/>
+      </div>
     </div>
   )
 }
