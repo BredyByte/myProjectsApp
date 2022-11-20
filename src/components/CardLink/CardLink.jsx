@@ -1,7 +1,7 @@
-import './ChartLink.css';
+import './CardLink.css';
 
 
-const ChartLink = ({data}) => {
+const CardLink = ({data}) => {
   const {id, title, desc, link} = data;
   return (
     <a  className="card" href={link} target="_blank">
@@ -15,4 +15,4 @@ const ChartLink = ({data}) => {
   )
 }
 
-export default ChartLink
+export default CardLink

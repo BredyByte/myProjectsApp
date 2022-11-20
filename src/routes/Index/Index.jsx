@@ -1,8 +1,8 @@
-import ChartLinkContainer from '../../components/ChartLinkContainer/ChartLinkContainer';
+import CardLinkContainer from '../../components/CardLinkContainer/CardLinkContainer';
 
 const Index = () => {
   return (
-    <ChartLinkContainer/>
+    <CardLinkContainer/>
   )
 }
 

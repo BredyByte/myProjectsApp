@@ -1,16 +1,15 @@
 import { useEffect } from 'react';
-import ChartLink from '../ChartLink/ChartLink';
-import './ChartLinkContainer.css';
+import CardLink from '../CardLink/CardLink';
 import VanillaTilt from '../../vanilla-tilt';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProjects } from '../../store/projectsSlice';
 
-const ChartLinkContainer = () => {
+const CardLinkContainer = () => {
   const projects = useSelector(state => state.projects.data);
 
   return (
     <div
-      className="ChartLinkContainer"
+      className="CardLinkContainer"
       style={{
         display: "flex",
         alignItems: "center",
@@ -22,7 +21,7 @@ const ChartLinkContainer = () => {
       {
         projects.map(i => (
           <div key={i.id}>
-            <ChartLink data={i}/>
+            <CardLink data={i}/>
           </div>
         ))
       }
@@ -30,4 +29,4 @@ const ChartLinkContainer = () => {
   )
 }
 
-export default ChartLinkContainer
+export default CardLinkContainer
