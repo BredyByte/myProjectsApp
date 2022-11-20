@@ -14,13 +14,13 @@ const About = () => {
           First of all, I want to say <b>thank you</b> for visiting this application.
           I made it  for a single purpose - to introduce you my person and projects that i've made 🙃.
         </div>
-        <h2><Link to="/projects" style={{color: "#61b2ff"}} >My Projects</Link></h2>
+        <h2><Link to="/projects">Click Me</Link></h2>
         <div>
           I'm David, Frontend Developer with good experience in  ReactJS.
           I play board games, do crossfit, hunt for new information, and i just adore programming!
           So, if you have any suggestions to me, questions, well,
           or just want to chat - write me an
-          email <b><a href="mailto:correodemimobil@gmail.com" style={{color: "#61b2ff"}} >correodemimobil@gmail.com</a></b> or
+          email <b><a href="mailto:correodemimobil@gmail.com">correodemimobil@gmail.com</a></b> or
           you'll be able to use any social net attached below.
         </div>
         <br/>
