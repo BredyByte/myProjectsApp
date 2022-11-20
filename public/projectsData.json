@@ -28,5 +28,11 @@
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
     "desc": "Just a beautiful component that sorts the cards inside"
+  },
+  {
+    "id": 6,
+    "link": "https://capable-heliotrope-4489bd.netlify.app/",
+    "title": "Chart App",
+    "desc": "This is an application with charts where I practiced chartjs and Redux-saga"
   }
 ]
