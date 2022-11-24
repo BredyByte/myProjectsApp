@@ -13,24 +13,30 @@
   },
   {
     "id": 3,
+    "link":"https://stalwart-bubblegum-9e8603.netlify.app/",
+    "title": "Pizza store App",
+    "desc": "This project is in the development phase, it is not ready yet "
+  },
+  {
+    "id": 4,
     "link": "https://dvaid0805.github.io/roomsBookingComponent/",
     "title": "Rooms Booking",
     "desc": "This is a beautifully made component for the \"Book a room\" tab for some hotel"
   },
   {
-    "id": 4,
+    "id": 5,
     "link": "https://dvaid0805.github.io/training-module-systemForAdmin/",
     "title": "Admin panel",
     "desc": "This is the visual part of the admin panel for creating new courses for students. This app has no functional, just dumb UI"
   },
   {
-    "id": 5,
+    "id": 6,
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
     "desc": "Just a beautiful component that sorts the cards inside"
   },
   {
-    "id": 6,
+    "id": 7,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
     "title": "Peculiar Slider",
     "desc": "Just a cool made slider"
