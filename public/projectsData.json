@@ -25,18 +25,24 @@
   },
   {
     "id": 5,
-    "link": "https://dvaid0805.github.io/training-module-systemForAdmin/",
+    "link": "https://dvaid0805.github.io/randomColorApp/",
+    "title": "Random Color App",
+    "desc": "this application is under development, at the moment you can change colors by pressing the space bar, and copy them by clicking on the color code, in the future I plan to implement the function of remembering colors in the search bar so that they can be passed on to other people"
+  },
+  {
+    "id": 6,
+    "link": "https://dvaid0805.github.io/training-module-systemForAdmin/ ",
     "title": "Admin panel",
     "desc": "This is the visual part of the admin panel for creating new courses for students. This app has no functional, just dumb UI"
   },
   {
-    "id": 6,
+    "id": 7,
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
     "desc": "Just a beautiful component that sorts the cards inside"
   },
   {
-    "id": 7,
+    "id": 8,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
     "title": "Peculiar Slider",
     "desc": "Just a cool made slider"
