@@ -3,48 +3,49 @@
     "id": 1,
     "link": "https://golden-kashata-473707.netlify.app/",
     "title": "Clothes Store",
+    "img": "./assets/img/ClothesStore.jpg",
     "desc": "This is a real clothing store, all the functionality is fully working, so if you send a message on the contact us tab, I will receive it! Also, the login and account creation functionality work, and I have reliable data on who has registered and logged in."
   },
   {
     "id": 2,
     "link":"https://capable-heliotrope-4489bd.netlify.app/",
     "title": "Charts App",
+    "img": "./assets/img/ChartsApp.jpg",
     "desc": "This is an application with charts where I practiced ChartJs and Redux-saga"
   },
   {
     "id": 3,
     "link":"https://stalwart-bubblegum-9e8603.netlify.app/",
-    "title": "Pizza store App",
+    "title": "Pizza Store App",
+    "img": "./assets/img/PizzaStoreApp.jpg",
     "desc": "This project is in the development phase, it is not ready yet "
   },
   {
     "id": 4,
     "link": "https://dvaid0805.github.io/roomsBookingComponent/",
     "title": "Rooms Booking",
+    "img": "./assets/img/RoomsBooking.jpg",
     "desc": "This is a beautifully made component for the \"Book a room\" tab for some hotel"
   },
   {
     "id": 5,
-    "link": "https://dvaid0805.github.io/randomColorApp/",
+    "link": "https://dvaid0805.github.io/colorFrogApp/",
     "title": "Random Color App",
+    "img": "./assets/img/RandomColorApp.jpg",
     "desc": "this application is under development, at the moment you can change colors by pressing the space bar, and copy them by clicking on the color code, in the future I plan to implement the function of remembering colors in the search bar so that they can be passed on to other people"
   },
   {
     "id": 6,
-    "link": "https://dvaid0805.github.io/training-module-systemForAdmin/ ",
-    "title": "Admin panel",
-    "desc": "This is the visual part of the admin panel for creating new courses for students. This app has no functional, just dumb UI"
-  },
-  {
-    "id": 7,
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
+    "img": "./assets/img/ComponentWithSortedCards.jpg",
     "desc": "Just a beautiful component that sorts the cards inside"
   },
   {
-    "id": 8,
+    "id": 7,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
     "title": "Peculiar Slider",
+    "img": "./assets/img/PeculiarSlider.jpg",
     "desc": "Just a cool made slider"
   }
 ]
