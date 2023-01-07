@@ -7,21 +7,21 @@
     "desc": "This is a real clothing store, all the functionality is fully working, so if you send a message on the contact us tab, I will receive it! Also, the login and account creation functionality work, and I have reliable data on who has registered and logged in."
   },
   {
-    "id": 3,
+    "id": 2,
     "link":"https://stalwart-bubblegum-9e8603.netlify.app/",
     "title": "Pizza Store App",
     "img": "./assets/img/PizzaStoreApp.jpg",
     "desc": "This project is in the development phase, it is not ready yet "
   },
   {
-    "id": 8,
+    "id": 3,
     "link": "https://polite-lebkuchen-972c06.netlify.app",
     "title": "Cejas Malaga Web",
     "img": "./assets/img/CejasMalagaWeb.jpg",
     "desc": "My first commercial project"
   },
   {
-    "id": 2,
+    "id": 4,
     "link":"https://capable-heliotrope-4489bd.netlify.app/",
     "title": "Charts App",
     "img": "./assets/img/ChartsApp.jpg",
@@ -35,21 +35,21 @@
     "desc": "this application is under development, at the moment you can change colors by pressing the space bar, and copy them by clicking on the color code, in the future I plan to implement the function of remembering colors in the search bar so that they can be passed on to other people"
   },
   {
-    "id": 4,
+    "id": 6,
     "link": "https://dvaid0805.github.io/roomsBookingComponent/",
     "title": "Rooms Booking",
     "img": "./assets/img/RoomsBooking.jpg",
     "desc": "This is a beautifully made component for the \"Book a room\" tab for some hotel"
   },
   {
-    "id": 6,
+    "id": 7,
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
     "img": "./assets/img/ComponentWithSortedCards.jpg",
     "desc": "Just a beautiful component that sorts the cards inside"
   },
   {
-    "id": 7,
+    "id": 8,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
     "title": "Peculiar Slider",
     "img": "./assets/img/PeculiarSlider.jpg",
