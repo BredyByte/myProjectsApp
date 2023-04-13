@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import VanillaTilt from '../vanilla-tilt';
 import axios  from 'axios';
 
 const projectsSlice = createSlice({
@@ -9,11 +8,8 @@ const projectsSlice = createSlice({
     isLoading: false,
   },
   reducers: {
-    showLoader: (state, action) => {
+    showLoader: (state) => {
       state.isLoading = true
-    },
-    hideLoader: (state, action) => {
-      state.isLoading = false
     },
     setProjects: (state, action) => {
       state.data = action.payload;
@@ -22,7 +18,7 @@ const projectsSlice = createSlice({
   }
 });
 
-const { setProjects, hideLoader, showLoader } = projectsSlice.actions;
+const { setProjects, showLoader } = projectsSlice.actions;
 const fetchProjects = () => dispatch => {
     axios
       .get('./projectsData.json')

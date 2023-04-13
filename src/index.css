@@ -6,7 +6,8 @@ html {
 *,*::before,*::after {
   box-sizing: inherit;
 }
-
+::-webkit-scrollbar{width: 6px; background: #E6ECF8}
+::-webkit-scrollbar-thumb{background: linear-gradient(to bottom, #61b2ff, #ff50ef);}
 body {
   overflow-x: hidden;
   margin: 0;

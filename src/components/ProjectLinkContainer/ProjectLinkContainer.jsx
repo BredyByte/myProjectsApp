@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
 import ProjectCardLink from '../ProjectCardLink/ProjectCardLink';
 import VanillaTilt from '../../vanilla-tilt';
-import { useSelector, useDispatch } from 'react-redux';
-import { fetchProjects } from '../../store/projectsSlice';
-import VanillaTiltRun from '../../vanilla-tilt';
+import { useSelector } from 'react-redux';
 
 const ProjectLinkContainer = () => {
   const projects = useSelector(state => state.projects.data);
@@ -16,7 +14,7 @@ const ProjectLinkContainer = () => {
         speed: 400,
       });
     }
-  }, [])
+  }, [isMobile]);
   return (
     <div
       className="ProjectLinkContainer"
@@ -29,9 +27,9 @@ const ProjectLinkContainer = () => {
         padding:" 20px 0 30px"
     }}>
       {
-        projects.map(i => (
+        projects.map((i, index) => (
           <div key={i.id}>
-            <ProjectCardLink data={i}/>
+            <ProjectCardLink data={i} id={index+1}/>
           </div>
         ))
       }

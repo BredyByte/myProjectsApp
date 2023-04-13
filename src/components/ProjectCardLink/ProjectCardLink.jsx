@@ -1,9 +1,9 @@
 import './ProjectCardLink.css';
 
-const CardLink = ({data}) => {
-  const {id, title, desc, link, img} = data
+const CardLink = ({data, id}) => {
+  const {title, link, img} = data
   return (
-    <a className="card" href={link} target="_blank">
+    <a className="card" href={link} target="_blank" rel="noreferrer">
       <div className="content">
         <h2>{(id < 10 ? `0${id}` : `${id}`)}</h2>
         <h3>{title}</h3>

@@ -4,7 +4,6 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ThemeProvider, createTheme } from '@mui/material';
-import { Analytics } from '@vercel/analytics/react'
 
 import { store } from './store/store';
 import Index from './routes/Index/Index';
@@ -57,7 +56,6 @@ root.render(
         <RouterProvider router={router} />
       </ThemeProvider>
     </Provider>
-    <Analytics/>
   </>
 );
 

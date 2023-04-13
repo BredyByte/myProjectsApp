@@ -3,56 +3,54 @@
     "id": 1,
     "link": "https://golden-kashata-473707.netlify.app/",
     "title": "Clothes Store",
-    "img": "./assets/img/ClothesStore.jpg",
-    "desc": "This is a real clothing store, all the functionality is fully working, so if you send a message on the contact us tab, I will receive it! Also, the login and account creation functionality work, and I have reliable data on who has registered and logged in."
+    "img": "./assets/img/ClothesStore.jpg"
   },
   {
     "id": 2,
     "link":"https://stalwart-bubblegum-9e8603.netlify.app/",
     "title": "Pizza Store App",
-    "img": "./assets/img/PizzaStoreApp.jpg",
-    "desc": "This project is in the development phase, it is not ready yet "
+    "img": "./assets/img/PizzaStoreApp.jpg"
   },
   {
     "id": 3,
     "link": "https://polite-lebkuchen-972c06.netlify.app",
     "title": "Cejas Malaga Web",
-    "img": "./assets/img/CejasMalagaWeb.jpg",
-    "desc": "My first commercial project"
+    "img": "./assets/img/CejasMalagaWeb.jpg"
+  },
+  {
+    "id": 9,
+    "link": "https://subtle-mousse-621acc.netlify.app/",
+    "title": "Tattoo web",
+    "img": "./assets/img/TattooWeb.png"
   },
   {
     "id": 4,
     "link":"https://capable-heliotrope-4489bd.netlify.app/",
     "title": "Charts App",
-    "img": "./assets/img/ChartsApp.jpg",
-    "desc": "This is an application with charts where I practiced ChartJs and Redux-saga"
+    "img": "./assets/img/ChartsApp.jpg"
   },
   {
     "id": 5,
     "link": "https://dvaid0805.github.io/colorFrogApp/",
     "title": "Random Color App",
-    "img": "./assets/img/RandomColorApp.jpg",
-    "desc": "this application is under development, at the moment you can change colors by pressing the space bar, and copy them by clicking on the color code, in the future I plan to implement the function of remembering colors in the search bar so that they can be passed on to other people"
+    "img": "./assets/img/RandomColorApp.jpg"
   },
   {
     "id": 6,
     "link": "https://dvaid0805.github.io/roomsBookingComponent/",
     "title": "Rooms Booking",
-    "img": "./assets/img/RoomsBooking.jpg",
-    "desc": "This is a beautifully made component for the \"Book a room\" tab for some hotel"
+    "img": "./assets/img/RoomsBooking.jpg"
   },
   {
     "id": 7,
     "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
     "title": "Component With Sorted Cards",
-    "img": "./assets/img/ComponentWithSortedCards.jpg",
-    "desc": "Just a beautiful component that sorts the cards inside"
+    "img": "./assets/img/ComponentWithSortedCards.jpg"
   },
   {
     "id": 8,
     "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
     "title": "Peculiar Slider",
-    "img": "./assets/img/PeculiarSlider.jpg",
-    "desc": "Just a cool made slider"
+    "img": "./assets/img/PeculiarSlider.jpg"
   }
 ]
