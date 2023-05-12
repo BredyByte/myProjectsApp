@@ -57,7 +57,7 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="xl">
-        <Box>
+        <Box position="relative">
           <Typography variant="p" sx={{
             fontFamily: 'monospace',
             fontWeight: 700,
