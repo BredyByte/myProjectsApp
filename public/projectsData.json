@@ -34,23 +34,5 @@
     "link": "https://dvaid0805.github.io/colorFrogApp/",
     "title": "Random Color App",
     "img": "./assets/img/RandomColorApp.jpg"
-  },
-  {
-    "id": 6,
-    "link": "https://dvaid0805.github.io/roomsBookingComponent/",
-    "title": "Rooms Booking",
-    "img": "./assets/img/RoomsBooking.jpg"
-  },
-  {
-    "id": 7,
-    "link": "https://dvaid0805.github.io/fancyboxFilteredCardsComponent/",
-    "title": "Component With Sorted Cards",
-    "img": "./assets/img/ComponentWithSortedCards.jpg"
-  },
-  {
-    "id": 8,
-    "link": "https://dvaid0805.github.io/peculiarSliderComponent/",
-    "title": "Peculiar Slider",
-    "img": "./assets/img/PeculiarSlider.jpg"
   }
 ]
