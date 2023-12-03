@@ -12,12 +12,12 @@ const Footer = () => {
   const isActive = useMediaQuery('(max-width: 500px)');
   const buttons = [
     {
-      link: "https://github.com/Dvaid0805",
+      link: "https://github.com/BredyByte",
       icon: <GitHubIcon/>,
       color: "#BDB3FFFF",
     },
     {
-      link: "https://www.instagram.com/davidbredihin/",
+      link: "https://www.instagram.com/davyd_bredikhin/",
       icon: <InstagramIcon/>,
       color: "#FFF5B3FF",
     },
