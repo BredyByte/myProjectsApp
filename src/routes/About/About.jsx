@@ -20,7 +20,7 @@ const About = () => {
 
           Feel free to explore my projects and, if you have any suggestions, 
           questions, or just want to chat, don't hesitate to reach out via email at
-          <b><a style={{ textDecoration: "underline" }} href="mailto:correodemimobil@gmail.com">correodemimobil@gmail.com</a></b>. 
+          <b><a style={{ textDecoration: "underline" }} href="mailto:correodemimobil@gmail.com"> correodemimobil@gmail.com</a></b>. 
           Alternatively, you can connect with me through the social networks listed below.
         </div>
         <br/>
