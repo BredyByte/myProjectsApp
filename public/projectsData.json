@@ -13,24 +13,24 @@
   },
   {
     "id": 3,
-    "link": "https://polite-lebkuchen-972c06.netlify.app",
-    "title": "Cejas Malaga Web",
-    "img": "./assets/img/CejasMalagaWeb.jpg"
+    "link":"https://github.com/BredyByte/cub3d/",
+    "title": "Campus 42 Cub3D",
+    "img": "./assets/img/cube.png"
   },
   {
-    "id": 9,
+    "id": 4,
+    "link":"https://github.com/BredyByte/fract-ol",
+    "title": "Campus 42 Fractal",
+    "img": "./assets/img/fract.png"
+  },
+  {
+    "id": 5,
     "link": "https://subtle-mousse-621acc.netlify.app/",
     "title": "Tattoo web",
     "img": "./assets/img/TattooWeb.png"
   },
   {
-    "id": 4,
-    "link":"https://capable-heliotrope-4489bd.netlify.app/",
-    "title": "Charts App",
-    "img": "./assets/img/ChartsApp.jpg"
-  },
-  {
-    "id": 5,
+    "id": 7,
     "link": "https://bredybyte.github.io/colorFrogApp/",
     "title": "Color Frog App",
     "img": "./assets/img/RandomColorApp.jpg"
